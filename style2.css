@@ -1,0 +1,53 @@
+body
+{
+background-color:aquamarine
+
+}
+{
+font-family:'Times new Roman' ,Times ,serif;
+font-style : normal;
+margin: 0;
+}
+header{
+    postion: sticky;
+    top: 0;
+}
+sticky-navbar{
+    display:flex;
+    justify content: space-between;
+    align-content: centre;
+    background-color: aquamarine;
+    height: 65px;
+}
+menu {
+    align-item: centre;
+    justify-item: centre;
+    text-align: centre;
+    color: white;
+    margin: auto 20px;
+}
+company-name{
+    margin: 20px
+    color: white;
+    align-item: centre;
+}
+learn-button button{
+    padding: 15px 60px;
+    background-color: black;
+    color: purple;
+}
+info-image{
+display: flex;
+justify-content:space-between;
+margin-top: 40px;
+}
+info-image>.info{
+    padding-left:65px
+}
+.info-image>.image{
+    padding-left: 65px;
+}
+.image>img{
+    width:600px;
+    height:700px;
+}
